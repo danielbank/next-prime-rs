@@ -1,12 +1,25 @@
-# Introduction
+# Next Prime CLI
 
-# Links
+## Usage
 
--   [Clap.rs](https://clap.rs)
+Build the program and run it like a normal CLI:
 
-# Learnings
+```
+cargo build
+./target/debug/next-prime-rs -h
+./target/debug/next-prime-rs -V
+./target/debug/next-prime-rs 1
+```
 
-## Return Values
+## Crates You Should Know
+
+-   [Clap](https://crates.io/crates/clap) - Command Line Argument Parser for Rust
+
+-   [Primes](https://crates.io/crates/primes) - A prime generator for Rust.
+
+## Learnings
+
+### Return Values
 
 -   Forgot the return type (`-> u64`)
 
