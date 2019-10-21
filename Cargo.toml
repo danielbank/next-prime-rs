@@ -1,0 +1,9 @@
+[package]
+name = "next-prime-rs"
+version = "0.1.0"
+authors = ["Daniel Bank <daniel.p.bank@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+primes = "0.2.3"
