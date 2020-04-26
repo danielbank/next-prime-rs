@@ -1,5 +1,7 @@
 # Next Prime CLI
 
+A simple Clap CLI program which computes the next prime after an input number. This project was presented at the [Desert Rust](https://rust.azdevs.org/) meetup.
+
 ## Usage
 
 Build the program and run it like a normal CLI:
